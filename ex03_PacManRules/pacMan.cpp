@@ -1,6 +1,6 @@
 /**
  * Name: Kevin Blinn
- * Date: January 26 2024
+ * Date: January 29 2024
  * Language: C++
  * Exercism: Pac-Man Rules
  * Difficulty: Learning Exercise
