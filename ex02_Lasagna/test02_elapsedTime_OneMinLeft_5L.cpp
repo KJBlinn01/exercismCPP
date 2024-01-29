@@ -14,7 +14,8 @@ int main(){
     int expected = timePerLayer * layers + timeSpendInOven;
 
     if (expected != actual){
-        cout << "FAILED: expected should be " << expected << " actual value when testing " << elapsedTime(layers, timeSpendInOven);
+        cout << "FAILED: expected should be " << expected << \
+        " actual value when testing " << elapsedTime(layers, timeSpendInOven);
         return 1;  
     }
     

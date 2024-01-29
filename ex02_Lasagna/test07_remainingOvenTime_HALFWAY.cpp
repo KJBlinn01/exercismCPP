@@ -12,7 +12,8 @@ int main(){
     int expected = 20;
 
     if (expected != actual){
-        cout << "FAILED: expected should be " << expected << " actual value when testing " << remainingOvenTime(timeSpendInOven);
+        cout << "FAILED: expected should be " << expected << \
+        " actual value when testing " << remainingOvenTime(timeSpendInOven);
         return 1;  
     }
     
